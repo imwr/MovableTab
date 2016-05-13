@@ -1,0 +1,29 @@
+.panda-movabletab {
+    padding: 5px;
+    border: 1px solid #aaaaaa;
+}
+
+.panda-movabletab .tab {
+    float: left;
+    cursor: pointer;
+    list-style: none;
+    margin-right: 5px;
+    padding: 8px 15px;
+    background-color: #ddd;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.panda-movabletab .tab:hover {
+    background-color: #aaaaaa;
+}
+
+.panda-movabletab .panda-tab-panel {
+    clear: both;
+    word-break: break-all; /*支持IE，chrome，FF不支持*/
+    word-wrap: break-word; /*支持IE，chrome，FF*/
+}
+
+.panda-movabletab .active {
+    background-color: #aaaaaa;
+}
