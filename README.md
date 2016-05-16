@@ -1,19 +1,25 @@
 # MovableTab
-¼òµ¥tab£¬Ö§³Ö×Ô¶¯»¬¶¯
+ï¿½ï¿½tabï¿½ï¿½Ö§ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½
 
 ###options###
 ```html
-addStyle: true,//ÊÇ·ñ×Ô¶¯Ìí¼ÓÑùÊ½
-event: "click",//ÇĞ»»tabÊÂ¼ş£ºmouseover¡¢click ...
-title: "top",//±êÌâÏÔÊ¾Î»ÖÃ£ºtop/bottom/none
-titleWidth: null,//Ã¿¸ötab titleµÄ¿í¶È
-width: "auto",//tab¿í¶È£¬²»°üÀ¨±ß¿ò¡¢²¹°×
-height: "auto",//tab¸ß¶È(º¬title)£¬auto£º¸÷tabÄÚÈİ×ÔÉí¸ß£»fix£ºËùÓĞtabÎª×î´ótab¸ß£»{num}£ºÖ¸¶¨tabÒ»ÖÂ¸ß¶È
-movable: false,//move »¬¶¯ »ò display ÏÔÒş
-type: "linear", //»¬¶¯ÀàĞÍ linear easeInQuad easeOutQuad easeInOutQuad easeInCubic easeOutCubic easeInOutCubic
+addStyle: true,//æ˜¯å¦è‡ªåŠ¨æ·»åŠ æ ·å¼
+event: "click",//åˆ‡æ¢tabäº‹ä»¶ï¼šmouseoverã€click ...
+title: "top",//æ ‡é¢˜æ˜¾ç¤ºä½ç½®ï¼štop/bottom/none
+titleWidth: null,//æ¯ä¸ªtab titleçš„å®½åº¦
+width: "auto",//tabå®½åº¦ï¼Œä¸åŒ…æ‹¬è¾¹æ¡†ã€è¡¥ç™½
+height: "auto",//tabé«˜åº¦(å«title)ï¼Œautoï¼šå„tabå†…å®¹è‡ªèº«é«˜ï¼›fixï¼šæ‰€æœ‰tabä¸ºæœ€å¤§tabé«˜ï¼›{num}ï¼šæŒ‡å®štabä¸€è‡´é«˜åº¦
+movable: false,//move æ»‘åŠ¨ æˆ– display æ˜¾éš
+type: "linear", //æ»‘åŠ¨ç±»å‹ linear easeInQuad easeOutQuad easeInOutQuad easeInCubic easeOutCubic easeInOutCubic
         // easeInQuart easeOutQuart easeInOutQuart easeInQuint easeOutQuint easeInOutQuint easeInSine easeOutSine easeInOutSine
-auto: false//ÊÇ·ñ×Ô¶¯ÇĞ»»£¬movableÎªtrueÔò»¬¶¯ÇĞ»»
+auto: false//æ˜¯å¦è‡ªåŠ¨åˆ‡æ¢ï¼Œmovableä¸ºtrueåˆ™æ»‘åŠ¨åˆ‡æ¢
 ```
+###method###
++ start/stop/pause/resume/toggle()
++ show(index) åˆ‡æ¢åˆ°æŸä¸ªtab
+
+###snapshot###
+![image](snapshot/test.png)
 
 ###demo###
 See [here](http://tt-cc.cn/front-end/jquery-plugins/movableTab)

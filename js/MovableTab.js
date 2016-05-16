@@ -88,7 +88,7 @@
                 _this.options.height == "fix" && (_this.height < $(content).outerHeight(true)) && (_this.height = $(content).outerHeight(true));
                 tab.title = $(item), tab.content = $(content), tab.height = content.clientHeight;
                 _this.tabs.push(tab);
-            })[0].clientHeight;
+            }).outerHeight();
             _this.options.height == "fix" && (_this.height += _this.titleHeight + $(this.ele).outerHeight(true) - $(this.ele).height());
             return true;
         },
