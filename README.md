@@ -1,5 +1,5 @@
 # MovableTab
-��tab��֧���Զ�����
+Movable Tab —— 简单tab，支持自动滑动
 
 ###options###
 ```html
