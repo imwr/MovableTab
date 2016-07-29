@@ -23,5 +23,5 @@ auto: false//是否自动切换，movable为true则滑动切换
 
 <!--
 ###demo###
-See [here](http://tt-cc.cn/front-end/jquery-plugins/movableTab)
+See [here](http://tt-cc.cc/front-end/jquery-plugins/movableTab)
 -->
